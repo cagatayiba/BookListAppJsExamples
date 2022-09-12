@@ -88,6 +88,8 @@ class Store{
 }
 
 //Event : Display Books
+// When page is loaded we go to local storage and fetch the book
+// data and then dynamically display the book list
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
 
 //Event : Add Book
@@ -116,10 +118,8 @@ document.querySelector('#bookForm').addEventListener('submit', e =>{
     UI.showAlert('book is added successfully', 'success');
 
     UI.clearFields();
-
-
-
 })
+
 
 // event remove a book
 document.querySelector('#bookList').addEventListener('click', e => {
@@ -128,6 +128,6 @@ document.querySelector('#bookList').addEventListener('click', e => {
         Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
         UI.showAlert('book is deleted', 'success');
     }
-    
+
 });
 
