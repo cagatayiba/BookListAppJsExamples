@@ -164,5 +164,4 @@ document.querySelector('#bookList').addEventListener('click', e => {
 
 ***Important Note: this project is created by following up a great tutorial made by Travesy Media youtube channel*** 
 
-<br />
-The full tutorial video can be found via [this_link](https://www.youtube.com/watch?v=JaMCxVWtW58) 
+The full tutorial video can be found via [this link](https://www.youtube.com/watch?v=JaMCxVWtW58) 
