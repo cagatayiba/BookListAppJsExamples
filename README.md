@@ -10,7 +10,7 @@
 
 # Project Code 
 
-  **UI Class <br />
+  **UI Class** <br />
   This class is used to manipulate DOM. For instance when addBook method is
   called the list view is updated to actually store that book data inside the
   local storage UI class uses methodes of the Store class.
@@ -70,7 +70,7 @@
 
 ```
 
-  **Storage class
+  **Storage class**
 
   ```javascript
 
@@ -162,6 +162,7 @@ document.querySelector('#bookList').addEventListener('click', e => {
 
 ```
 
-***Important Note: this project is created by following up a great tutorial made by
-Travesy Media youtube channel <br />
-The full tutorial video can be found via [this](https://www.youtube.com/watch?v=JaMCxVWtW58) link
+***Important Note: this project is created by following up a great tutorial made by Travesy Media youtube channel*** 
+
+<br />
+The full tutorial video can be found via [this link](https://www.youtube.com/watch?v=JaMCxVWtW58) 
