@@ -1,4 +1,4 @@
-## Book List App
+# Book List App
 
    Book List App takes user inputs that contains information
  about the books and then display it dynamically.
@@ -10,7 +10,7 @@
 
 # Project Code 
 
-  ** UI Class
+  **UI Class <br />
   This class is used to manipulate DOM. For instance when addBook method is
   called the list view is updated to actually store that book data inside the
   local storage UI class uses methodes of the Store class.
@@ -70,7 +70,7 @@
 
 ```
 
-  ** Storage class
+  **Storage class
 
   ```javascript
 
@@ -106,7 +106,7 @@
 ```
 
   * Note that both classes have static methods since we dont need to use
-  * instances of that classes
+  instances of that classes
 
 # Event Listeners
 
@@ -162,6 +162,6 @@ document.querySelector('#bookList').addEventListener('click', e => {
 
 ```
 
-*** Important Note: this project is created by following up a great tutorial made by
-*** Travesy Media youtube channel
+***Important Note: this project is created by following up a great tutorial made by
+Travesy Media youtube channel <br />
 The full tutorial video can be found via [this](https://www.youtube.com/watch?v=JaMCxVWtW58) link
